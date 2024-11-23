@@ -1,0 +1,806 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto" , sans-serif;
+}
+html, body{
+  height: 100%;
+  width: 100%;
+}
+/*<<<<<Navbar styling>>>>>*/
+.navbar{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 5vh;
+  gap: 2vw;
+  background-color: black;
+  
+}
+
+.navbar a{
+ text-decoration: none;
+ color: lightgray;
+}
+
+.navbar .fa-brands{
+ font-size: 1.5vw;
+}
+.navbar i{
+  font-size: 1.1vw;
+  color: lightgray;
+}
+
+.navbar i:hover{
+  color: white
+}
+
+.navbar a:hover{
+  color: white
+}
+
+ 
+.box-1{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-image: url(./assets/image-1.jpg);
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 0.5%;
+  gap: 2vh;
+  position: relative;
+}
+
+.box-1a{
+  position: absolute;
+  top: 10%;
+  left: 38%;
+  font-size: 4vw;
+  color: white;
+}
+
+.box-1b{
+  position: absolute;
+  top: 21%;
+  left: 41%;
+  font-size: 1.6vw;
+  color: white;
+}
+
+.box1-btn1{
+height: 50px;
+width: 150px;
+padding: 10px, 10px;
+margin: 10px;
+font-size: 20px;
+color: white;
+font-weight: 20px;
+background-color: rgb(21, 131, 228);
+border-radius: 30px;
+border: none;
+position: absolute;
+top: 28%;
+left: 40%;
+}
+
+.box1-btn1:hover{
+  transition: all 1s ease;
+  background-color: rgb(63, 150, 226);
+  cursor: pointer;
+}
+
+.box1-btn2{
+  height: 50px;
+  width: 150px;
+  padding: 10px, 10px;
+  margin: 10px;
+  font-size: 20px;
+  color: rgb(21, 131, 228);
+  font-weight: 20px;
+  background-color: transparent;
+  border-radius: 30px;
+  border: 1px solid;
+  position: absolute;
+  top: 28%;
+  right: 40%;
+}
+
+.box1-btn2:hover{
+  color: white;
+cursor: pointer;
+transition: all 1s ease;
+background-color: rgb(36, 142, 236);
+}
+
+.box-2{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  background-image: url(./assets/image-2.jpg);
+  background-size: cover;
+  background-position: center;
+  gap: 2vh;
+  position: relative;
+}
+
+.box-2a{                        
+  position: absolute;
+  top: 10%;
+  font-size: 4vw;
+  color: white; 
+}
+
+.box-2b{
+  color: white;
+  font-size: 1.6vw;
+  position: absolute;
+  top: 160px;
+}
+
+.box2-btn1{
+  height: 50px;
+width: 150px;
+padding: 10px, 10px;
+margin: 10px;
+font-size: 20px;
+color: rgb(5, 5, 5);
+font-weight: 20px;
+background-color: rgb(220, 228, 235);
+border-radius: 30px;
+border: none;
+position: absolute;
+top: 200px;
+left: 650px;
+}
+
+.box2-btn1:hover{
+  transition: 1ease;
+  background-color: white;
+  cursor: pointer;
+}
+
+.box2-btn2{
+  height: 50px;
+  width: 150px;
+  padding: 10px, 10px;
+  margin: 10px;
+  font-size: 20px;
+  color: white;
+  font-weight: 20px;
+  background-color: transparent;
+  border-radius: 30px;
+  border: 1px solid;
+  position: absolute;
+  top: 200px;
+  left: 850px;
+}
+
+.box2-btn2:hover{
+  color: rgb(7, 7, 7);
+cursor: pointer;
+transition: 1ease;
+background-color: white;
+}
+
+.box-3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  background-image: url(./assets/image-3.jpg);
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.box-3a{
+  color: white;
+  font-size: 60px;
+  position: absolute;
+  top: 70px;
+}
+
+.box-3b{
+  color: white;
+  font-size: 25px;
+  font-weight: 300;
+  position: absolute;
+  top: 140px;
+}
+
+.box-3c{
+  color: rgb(147, 151, 155);
+  font-size: 20px;
+  position: absolute;
+  top: 180px;
+}
+
+.box3-btn1{
+  height: 50px;
+width: 150px;
+padding: 10px, 10px;
+margin: 10px;
+font-size: 20px;
+color: white;
+font-weight: 20px;
+background-color: rgb(33, 140, 228); 
+border-radius: 30px;
+border: none;
+position: absolute;
+top: 220px;
+left: 660px;
+}
+
+.box3-btn1:hover{
+  transition: 1ease;
+  background-color: rgb(100, 164, 238);
+  cursor: pointer;
+}
+
+.box3-btn2{
+  height: 50px;
+  width: 150px;
+  padding: 10px, 10px;
+  margin: 10px;
+  font-size: 20px;
+  color: rgb(35, 145, 235);
+  font-weight: 20px;
+  background-color: transparent;
+  border-radius: 30px;
+  border: 1px solid;
+  position: absolute;
+  top: 220px;
+  left: 860px;
+}
+
+.box3-btn2:hover{
+  color: white;
+cursor: pointer;
+transition: 1ease;
+background-color: rgb(28, 148, 228);
+}
+
+.box-3d{
+  background-image: linear-gradient(to right, #2989ea, #cf1111);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+   font-size: 20px;
+   position: absolute;
+   top: 780px;
+}
+
+.card-box{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  height: 250vh;
+  margin-bottom: 10px;
+}
+
+.card-1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-image: url(./assets/card-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card-1a{
+  position: absolute;
+  top: 40px;
+  font-size: 35px;
+  font-weight: 5px;
+}
+
+.card-1b{
+   position: absolute;
+   top: 80px;
+   font-size: 20px;
+   font-weight: 5px;
+}
+
+.card-1c{
+  position: absolute;
+  top: 120px;
+  font-size: 18px;
+  font-weight: 5px;
+  color: rgb(135, 127, 127);
+}
+
+.card-1d{
+  background-image: linear-gradient(to right, #2989ea, #cf1111);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+   font-size: 15px;
+   position: absolute;
+   top: 580px;
+   left: 350px;
+}
+
+.card1-btn1{
+    height: 45px;
+  width: 120px;
+  padding: 10px, 10px;
+  margin: 10px;
+  font-size: 18px;
+  color: white;
+  font-weight: 18px;
+  background-color: rgb(33, 140, 228); 
+  border-radius: 30px;
+  border: none;
+  position: absolute;
+  top: 150px;
+  left: 280px;
+  }
+  
+  .card1-btn1:hover{
+    transition: 1ease;
+    background-color: rgb(100, 164, 238);
+    cursor: pointer;
+  }
+
+  .card1-btn2{
+    height: 45px;
+    width: 120px;
+    padding: 10px, 10px;
+    margin: 10px;
+    font-size: 18px;
+    color: rgb(35, 145, 235);
+    font-weight: 20px;
+    background-color: transparent;
+    border-radius: 30px;
+    border: 1px solid;
+    position: absolute;
+    top: 150px;
+    left: 435px;
+  }
+  
+  .card1-btn2:hover{
+    color: white;
+  cursor: pointer;
+  transition: 1ease;
+  background-color: rgb(28, 148, 228);
+  }
+
+.card-2{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-image: url(./assets/card-2.jpg);
+background-size: cover;
+background-position: center;
+position: relative;
+}
+
+.card-2a{
+  position: absolute;
+  top: 40px;
+  font-size: 35px;
+  font-weight: 5px;
+}
+
+.card-2b{
+  position: absolute;
+  top: 80px;
+  font-size: 20px;
+  font-weight: 5px;
+}
+
+.link-1, .link-2, 
+.link-3, .link-4,
+ .link-5, .link-6{
+  text-decoration: none;
+}
+
+.link-1{
+  color: rgb(52, 164, 52);
+}
+
+.link-2{
+  color: rgb(237, 237, 31);
+}
+
+.link-3{
+  color: rgb(227, 71, 4);
+}
+
+.link-4{
+  color: rgb(213, 26, 120);
+}
+
+.link-5{
+  color: rgb(103, 50, 177);
+}
+
+.link-6{
+  color: rgb(65, 97, 213);
+}
+
+.card-2c{
+  position: absolute;
+top: 120px;
+font-size: 18px;
+font-weight: 5px;
+color: rgb(135, 127, 127);
+}
+.card-2d{
+  background-image: linear-gradient(to right, #2989ea, #cf1111);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+   font-size: 15px;
+   position: absolute;
+   top: 600px;
+}
+
+.card2-btn1{
+  height: 45px;
+width: 120px;
+padding: 10px, 10px;
+margin: 10px;
+font-size: 18px;
+color: white;
+font-weight: 18px;
+background-color: rgb(33, 140, 228); 
+border-radius: 30px;
+border: none;
+position: absolute;
+top: 150px;
+right: 430px;
+}
+
+.card2-btn1:hover{
+  transition: 1ease;
+  background-color: rgb(100, 164, 238);
+  cursor: pointer;
+}
+
+.card2-btn2{
+  height: 45px;
+  width: 120px;
+  padding: 10px, 10px;
+  margin: 10px;
+  font-size: 18px;
+  color: rgb(35, 145, 235);
+  font-weight: 20px;
+  background-color: transparent;
+  border-radius: 30px;
+  border: 1px solid;
+  position: absolute;
+  top: 150px;
+  right: 280px;
+}
+  
+.card2-btn2:hover{
+  color: white;
+cursor: pointer;
+transition: 1ease;
+background-color: rgb(28, 148, 228);
+}
+
+.card-3{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-image: url(./assets/card-3.jpg);
+background-size: cover;
+background-position: center;
+position: relative;
+}
+
+.card-3a{
+  position: absolute;
+  bottom: 220px;
+  color: white;
+  font-size: 35px;
+  font-weight: 2px;
+}
+
+.card-3b{
+ position: absolute;
+ bottom: 150px;
+ color: white;
+ text-align: center;
+ font-size: 20px;
+ font-weight: 2px;
+}
+
+.card3-btn1{
+  height: 45px;
+width: 120px;
+padding: 10px, 10px;
+margin: 10px;
+font-size: 18px;
+color: white;
+font-weight: 18px;
+background-color: rgb(33, 140, 228); 
+border-radius: 30px;
+border: none;
+position: absolute;
+bottom: 70px;
+left: 280px;
+}
+
+.card3-btn1:hover{
+  transition: 1ease;
+ background-color: rgb(100, 164, 238);
+ cursor: pointer;
+}
+.card3-btn2{
+  height: 45px;
+  width: 120px;
+  padding: 10px, 10px;
+  margin: 10px;
+  font-size: 18px;
+  color: rgb(35, 145, 235);
+  font-weight: 20px;
+  background-color: transparent;
+  border-radius: 30px;
+  border: 1px solid;
+  position: absolute;
+  bottom: 70px;
+  right: 280px;
+}
+
+.card3-btn2:hover{
+  color: white;
+  cursor: pointer;
+  transition: 1ease;
+  background-color: rgb(28, 148, 228);
+}
+.card-4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./assets/card-4.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.card-4a{
+  position: absolute;
+  top: 40px;
+  color: black;
+  font-size: 35px;
+  font-weight: 2px;
+}
+
+.card-4b{
+ position: absolute;
+ top: 90px;
+ color: black;
+ text-align: center;
+ font-size: 20px;
+ font-weight: 2px;
+}
+
+.card4-btn1{
+height: 45px;
+width: 120px;
+padding: 10px, 10px;
+margin: 10px;
+font-size: 18px;
+color: white;
+font-weight: 18px;
+background-color: rgb(33, 140, 228); 
+border-radius: 30px;
+border: none;
+position: absolute;
+top: 140px;
+left: 280px;
+}
+
+.card4-btn1:hover{
+  transition: 1ease;
+ background-color: rgb(100, 164, 238);
+ cursor: pointer;
+}
+.card4-btn2{
+  height: 45px;
+  width: 120px;
+  padding: 10px, 10px;
+  margin: 10px;
+  font-size: 18px;
+  color: rgb(35, 145, 235);
+  font-weight: 20px;
+  background-color: transparent;
+  border-radius: 30px;
+  border: 1px solid;
+  position: absolute;
+  top: 140px;
+  right: 280px;
+}
+
+.card4-btn2:hover{
+  color: white;
+  cursor: pointer;
+  transition: 1ease;
+  background-color: rgb(28, 148, 228);
+}
+
+.card-5{
+  display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background-image: url(./assets/card-5.jpg);
+background-size: cover;
+background-position: center;
+position: relative;
+}
+#logo1{
+font-size: 40px;
+color: black;
+position: absolute;
+top: 87px;
+left: 305px;
+}
+.card-5a{
+  position: absolute;
+  top: 80px;
+  color: black;
+  font-size: 45px;
+  font-weight: 5px;
+}
+
+.card-5b{
+  position: absolute;
+  top: 160px;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 2px;
+}
+
+.card5-btn{
+  height: 50px;
+  width: 220px;
+  padding: 10px, 10px;
+  margin: 10px;
+  font-size: 22px;
+  color: white;
+  font-weight: 18px;
+  background-color: rgb(33, 140, 228); 
+  border-radius: 30px;
+  border: none;
+  position: absolute;
+  top: 220px;
+  left: 280px;
+}
+
+.card5-btn:hover{
+  transition: 1ease;
+  background-color: rgb(100, 164, 238);
+}
+.card-6{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./assets/card-6.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+#logo2{
+  font-size: 40px;
+  color: black;
+  position: absolute;
+  top: 105px;
+  left: 340px;
+}
+
+.card-6a{
+  position: absolute;
+  top: 100px;
+  color: black;
+  font-size: 45px;
+  font-weight: 5px;
+}
+
+.card-6b{
+  position: absolute;
+  top: 160px;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 2px;
+}
+
+.card6-btn1{
+  height: 45px;
+  width: 140px;
+  padding: 10px, 10px;
+  margin: 10px;
+  font-size: 20px;
+  color: white;
+  font-weight: 15px;
+  background-color: rgb(33, 140, 228); 
+  border-radius: 30px;
+  border: none;
+  position: absolute;
+  top: 220px;
+  left: 260px;
+}
+
+.card6-btn1:hover{
+  transition: 1ease;
+  background-color: rgb(100, 164, 238);
+}
+
+.card6-btn2{
+  height: 45px;
+ width: 120px;
+ padding: 10px, 10px;
+ margin: 10px;
+ font-size: 18px;
+ color: rgb(35, 145, 235);
+ font-weight: 20px;
+ background-color: transparent;
+ border-radius: 30px;
+ border: 1px solid;
+ position: absolute;
+ top: 220px;
+ right: 280px;
+}
+
+.card6-btn2:hover{
+  color: white;
+  cursor: pointer;
+  transition: 1ease;
+  background-color: rgb(28, 148, 228);
+}
+
+.box-10{
+  background-color: rgb(235, 234, 233);
+  font-size: 14px;
+  color: rgb(94, 92, 92);
+  padding-left: 250px;
+  padding-right: 250px;
+  list-style: none;
+}
+.box-10a{
+display: flex;
+flex-direction: row;
+gap: 60px;
+}
+.aa{
+color: rgb(235, 234, 233);
+}
+.box-10a li{
+  list-style-type: none;
+  margin: 5px;
+  text-align: left;
+}
+.box-10b{
+  display: flex;
+  flex-direction: row;
+  gap: 195px;
+}
